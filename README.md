@@ -1,5 +1,7 @@
 # Daisy UI Starter
 
+!["Cover Image"](https://raw.githubusercontent.com/mir-hussain/daisyui-starter/main/daisyui.png)
+
 ## React app with Tailwind and Daisy UI Configured
 
 ### Features
