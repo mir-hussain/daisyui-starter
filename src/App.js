@@ -1,10 +1,16 @@
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+
 function App() {
   return (
-    <div className='h-screen flex items-center justify-center'>
-      <h1 className='font-extrabold text-transparent text-8xl leading-loose bg-clip-text bg-gradient-to-r from-teal-400 to-purple-400'>
-        Daisy UI Initialized
-      </h1>
-    </div>
+    <Navbar>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/login' element={<Login />} />
+      </Routes>
+    </Navbar>
   );
 }
 
